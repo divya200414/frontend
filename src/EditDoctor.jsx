@@ -37,7 +37,7 @@ axios.put(`https://doc-back.onrender.com/doctors/${id}`,{
     alert("updated successfully")
 })        
     }
-    })
+    }
     
   return (
     <div>
@@ -79,4 +79,7 @@ axios.put(`https://doc-back.onrender.com/doctors/${id}`,{
     <button>AddDoctor</button>
 
     </form>
-    )
+    </div>
+    </div>
+  )
+   
